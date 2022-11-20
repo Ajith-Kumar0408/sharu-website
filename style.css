@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-size: cover;
+	font-family: sans-serif;
+	cursor: pointer;
+	font-family: sans-serif;
+	
+}
+body{
+	width: 100%;
+	min-height: 100vh;
+	background-image: url("sharu.png");
+
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 20px;
+	color: white;
+
+}
+nav li{
+	display: inline-block;
+	margin: 10px 20px;
+	font-weight: 600;
+}
+.main{
+	width: 100%;
+	display: flex;
+}
+.content{
+	width: 50%;
+	margin-top: 8%;
+	margin-left: 5%;
+	color: white;
+}
+.content h3{
+	font-size: 50px;
+	margin-bottom: 1%;
+	
+}
+.content h1{
+	font-size: 80px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.content h1 span{
+	color: rgb(249, 35, 35);
+}
+.content p{
+	font-size: 30px;
+	margin-bottom: 3%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content p span{
+	color: aqua;
+	font-size: 40px
+}
+button{
+	padding: 15px 30px;
+    background: transparent;
+    border-color: rgb(230, 235, 240);
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+}
+button:hover{
+	background: rgb(213, 113, 6);
+}
+button a{
+	color: white;
+	text-decoration: none;
+}
